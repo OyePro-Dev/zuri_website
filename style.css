@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+}
+
+a {
+    color: hsl(3, 80%, 54%);
+    text-decoration: none;
+}
+
+a {
+    color: hsl(3, 79%, 62%);
+    text-decoration: none;
+}
+
+.hero-container {
+    background-image: url("hero-bg.svg");
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: center;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    margin: auto;
+    padding: 80px 50px;
+    flex-direction: column;
+}
+
+.center-image {
+    padding-bottom: 50px;
+}
+
+.hero {
+    justify-content: center;
+    max-width: 748px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 50px;
+    color: hsl(0, 5%, 30%);
+    padding: 35px;
+}
+
+.hero p {
+    font-size: 17px;
+    color: hsla(0, 5%, 30%, 0.9);
+    line-height: 26px;
+    padding: 0 10px;
+}
+
+.btn-div {
+    margin-top: 13%;
+}
+
+.my-btn {
+    padding: 15px 30px;
+    outline: none;
+    border: 1px solid hsl(3, 80%, 54%);
+}
+
+.btn-red {
+    background-color: hsl(3, 80%, 54%);
+    color: hsl(0, 0%, 100%);
+}
+
+.btn-red:hover {
+   background-color: hsl(0, 0%, 100%);
+   color: hsl(3, 80%, 54%); 
+}
+
+.btn-red-outline {
+    margin-left: 30px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(3, 80%, 54%);
+}
+
+.btn-red-outline:hover {
+    background-color: hsl(3, 80%, 54%);
+    color: hsl(0, 0%, 100%); 
+}
+
