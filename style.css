@@ -15,16 +15,17 @@ a {
     text-decoration: none;
 }
 
-a {
+a:hover {
     color: hsl(3, 79%, 62%);
     text-decoration: none;
 }
 
-.hero-container {
+.top-container {
     background-image: url("hero-bg.svg");
     background-repeat: no-repeat;
     height: 800px;
     background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: top;
     align-items: center;
@@ -37,13 +38,13 @@ a {
     padding-bottom: 50px;
 }
 
-.hero {
+.top {
     justify-content: center;
     max-width: 748px;
     text-align: center;
 }
 
-.hero h2 {
+.top h2 {
     font-size: 30px;
     font-weight: 900;
     line-height: 50px;
@@ -51,41 +52,192 @@ a {
     padding: 35px;
 }
 
-.hero p {
+.top p {
     font-size: 17px;
     color: hsla(0, 5%, 30%, 0.9);
     line-height: 26px;
     padding: 0 10px;
 }
 
-.btn-div {
+.butt {
     margin-top: 13%;
 }
 
-.my-btn {
+.my-butt {
     padding: 15px 30px;
     outline: none;
     border: 1px solid hsl(3, 80%, 54%);
 }
 
-.btn-red {
+.red-butt {
     background-color: hsl(3, 80%, 54%);
     color: hsl(0, 0%, 100%);
 }
 
-.btn-red:hover {
+.red-butt:hover {
    background-color: hsl(0, 0%, 100%);
    color: hsl(3, 80%, 54%); 
 }
 
-.btn-red-outline {
+.white-butt {
     margin-left: 30px;
     background-color: hsl(0, 0%, 100%);
     color: hsl(3, 80%, 54%);
 }
 
-.btn-red-outline:hover {
+.white-butt:hover {
     background-color: hsl(3, 80%, 54%);
     color: hsl(0, 0%, 100%); 
 }
 
+.zuri-programs {
+    background-color: hsl(0, 0%, 100%);
+    height: 815px;
+    margin-bottom: 10%;
+}
+
+.middle-container {
+    max-width: 1440px;
+    height: 675px;
+    text-align: center;
+    margin: auto;
+}
+
+.heading {
+    color: hsl(3, 80%, 54%);
+    margin-top: 10%;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.aim {
+    margin-top: 15px;
+    font-size: 25px;
+    color: hsla(0, 5%, 30%);
+    line-height: 40px; 
+    margin-bottom: 5%;
+}
+
+.flex-container {
+    max-width: 1240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* height: 500px; */
+}
+
+.program-card {
+    width: 100%;
+    /* text-align: left; */
+    padding: 64px 50px 85px 39px;
+    background-color: hsl(0, 100%, 99%);
+    text-align: justify;
+}
+
+.program-card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: hsla(0, 5%, 30%, 0.9);
+    padding-bottom: 25px;
+}
+
+.program-card img {
+    padding-bottom: 50px;
+}
+
+.program-card h3 a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: hsla(3, 80%, 54% 0.9);
+}
+
+.zuri {
+    margin: 15px;
+}
+
+.posit {
+    position: relative;
+    z-index: 1;
+}
+
+.left-image {
+    width: 100%;
+    position: absolute;
+    left: -120px;
+    top: -75px;
+    z-index: -1;
+}
+
+.right-image {
+    position: absolute;
+    width: 90%;
+    right: -120px;
+    top: -75px;
+    z-index: -1;
+}
+
+.footer {
+    max-width: 1240px;
+    /* margin-top: 10%; */
+    margin: auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    /* margin-left: 5%; */
+    padding: 20px;
+}
+
+.footer h3 {
+    color: hsl(0, 5%, 30%);
+    font-size: 17px;
+    font-weight: 900;
+    line-height: 25px;
+}
+
+.address p {
+    font-size: 14px;
+    line-height: 20px;
+    color: hsla(0, 5%, 30%, 0.9);
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+}
+
+.contact-icons img {
+    width: 18px;
+    padding-top: 12px;
+}
+
+.link a p {
+    padding-top: 10px;
+}
+
+.dline {
+    width: 100%;
+    margin: auto;
+}
+
+.line {
+    opacity: 0.2;
+    border: 0.7px solid hsl(0, 5%, 30%);
+    width: 100%;   
+}
+
+.copyright p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 800;
+    margin-top: 32px;
+    color: hsl(0, 5%, 30%);
+    padding-bottom: 97px;
+    text-align: center;
+}
+
+.foot{
+    margin-bottom: 6%;
+}
